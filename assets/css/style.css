@@ -517,7 +517,7 @@ section {
 .about2{
   position: relative;
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-bottom: 10rem;
   background-image: url(../img/about-us-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -542,8 +542,9 @@ section {
 }
 
 .about p {
-  margin: 15px 0 30px 0;
-  line-height: 24px;
+  margin: 15px 0 30px 0 !important;
+  line-height: 34px;
+  font-size:20px
 }
 
 .about .btn-read-more {
@@ -1510,7 +1511,7 @@ section {
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
-  padding: 30px;
+  padding: 40px;
   border-radius: 8px;
   position: relative;
   display: flex;
@@ -1527,21 +1528,22 @@ section {
   transition: 0.5s;
 }
 
-.recent-blog-posts .post-box .post-date {
-  font-size: 16px;
-  font-weight: 600;
-  color: rgba(1, 41, 112, 0.6);
-  display: block;
-  margin-bottom: 10px;
-}
-
 .recent-blog-posts .post-box .post-title {
-  font-size: 24px;
+  font-size: 16px;
   color: #012970;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
   transition: 0.3s;
+}
+
+.recent-blog-posts .post-box .post-content {
+  font-size: 16px;
+  color: #012970;
+  margin-bottom: 18px;
+  position: relative;
+  transition: 0.3s;
+  text-align: justify;
 }
 
 .recent-blog-posts .post-box .readmore {
@@ -1572,11 +1574,11 @@ section {
 .contact .info-box {
   color: #444444;
   background: #fafbff;
-  padding: 30px;
+  /* padding: 10px; */
 }
 
 .contact .info-box i {
-  font-size: 38px;
+  font-size: 24px;
   line-height: 0;
   color: #1F2855;
 }
