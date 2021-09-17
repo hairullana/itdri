@@ -318,6 +318,10 @@ section {
   visibility: visible;
 }
 
+.bounder-form {
+  border-radius: 20px;
+}
+
 .getstarted {
   background: #1F2855;
   padding: 8px 20px;
