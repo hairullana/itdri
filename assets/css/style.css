@@ -1522,6 +1522,7 @@ section {
   overflow: hidden;
   margin: -30px -30px 15px -30px;
   position: relative;
+  border-radius: 10px 10px 0 0;
 }
 
 .recent-blog-posts .post-box .post-img img {
@@ -1575,6 +1576,10 @@ section {
   color: #444444;
   background: #fafbff;
   /* padding: 10px; */
+}
+
+.contact img{
+  max-width: 45px;
 }
 
 .contact .info-box i {
