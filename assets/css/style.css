@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #1F2855;
 }
 
 a {
@@ -318,6 +318,14 @@ section {
   visibility: visible;
 }
 
+.getstarted {
+  background: #1F2855;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+  color: #fff;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -488,6 +496,19 @@ section {
 .hero-img img {
   width: 1200%;
 }
+
+.login {
+  position: relative;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url(../img/login-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
 
 @media (min-width: 1024px) {
   .hero {
