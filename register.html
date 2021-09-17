@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>FlexStart Bootstrap Template - Index</title>
+  <title>Login</title>
   <meta content="" name="description">
 
   <meta content="" name="keywords">
@@ -44,8 +44,8 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="login.html" class="logo d-flex align-items-center">
-        <img src="assets/img/ITDRI.png" alt="22">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="22">
       </a>
 
       <nav id="navbar" class="navbar">
@@ -57,72 +57,82 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center" style="min-height: 100%; margin-top: 10%;">
+  <section id="login" class="login d-flex align-items-center">
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/VECTOR_PAGE_REGISTRASI.png" class="img-fluid" alt="">
+        <div class="col-lg-5 hero-img my-auto" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/regis.png" class="img-fluid" alt="">
         </div>
-        <div class="col-lg-4 offset-lg-2 d-flex flex-column justify-content-center">
-
+        <div class="col-lg-6 offset-lg-1 d-flex flex-column justify-content-center">
+          <h1 class="mb-4 text-center"><b>Let's Us Know You Better</b></h1>
           <form>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Your Self</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Your Organization</label>
-            </div>
-    
             <!-- Email input -->
-          <div class="form-outline mb-2 mt-4 pt-2">
-            <input type="name"   id="form3Example3" class="form-control form-control-lg "
-              placeholder="Your Name" />
-        
-          </div>
-
-            <!-- Password input -->
-          <div class="form-outline mb-2">
-            <input type="email" id="form3Example4" class="form-control form-control-lg"
-              placeholder="E-mail" />
-        
-          </div>
-
-          <div class="form-outline mb-2">
-            <input type="number" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Phone Number" />
-        
-          </div>
-
-          <div class="form-outline mb-2">
-            <input type="c_password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Create Password" />
-        
-          </div>
-
-          <div class="form-outline mb-2">
-            <input type="r_password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Repeat Password" />
-        
-          </div>
-
-             <div class="d-flex justify-content-between align-items-center">
-            <!-- Checkbox -->
-            <div class="form-check mb-0">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-              <label class="form-check-label" for="form2Example3">
-                I agree to the terms of use
-              </label>
+            <div class="row gy-4">
+              <div class="col-md-6 offset-md-3 align-items-center">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yourself</label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Your Organization</label>
+              </div>
+              <!-- your name -->
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class='bi bi-person-fill'></i></div>
+                  </div>
+                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Your name">
+                </div>
+              </div>
+              <!-- email -->
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class='bi bi-envelope-fill'></i></div>
+                  </div>
+                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+                </div>
+              </div>
+              <!-- phone -->
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class='bi bi-telephone-fill'></i></div>
+                  </div>
+                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Phone number">
+                </div>
+              </div>
+                <!-- Password input -->
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class='bi bi-shield-lock-fill'></i></div>
+                  </div>
+                  <input type="password" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Create password">
+                </div>
+              </div>
+              <!-- repeat -->
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class='bi bi-shield-lock-fill'></i></div>
+                  </div>
+                  <input type="password" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Repeat Password">
+                </div>
+              </div>
+              <div class="col-md-12 d-flex justify-content-between align-items-center mt-3">
+                <!-- Checkbox -->
+                <div class="form-check mb-0">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                  <label class="form-check-label" for="form2Example3">
+                    <i>I agree to terms of use</i>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <a href="" class="getstarted">Let's Go</a>
+              </div>
             </div>
-          </div>
-              
-          <div class="d-grid gap-3 mt-4 pt-2 d-md-block mx-auto">
-            <button type="button"  class="btn btn-primary btn-lg">Let's Go</button>
-          </div>
           </form>
         </div>
       </div>
