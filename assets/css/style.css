@@ -39,6 +39,22 @@ section {
   display: contents !important;
 }
 
+.section-header:after, .about h1:after{
+  content: "";
+  display: block;
+  width: 15%;
+  height: 5px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  border-radius: 2px;
+  background-color: #012970;
+}
+
+.about h1:after{
+  background-color: white;
+}
+
 .section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -535,9 +551,11 @@ section {
   text-transform: uppercase;
 }
 
-.about h2 {
-  font-size: 24px;
-  font-weight: 700;
+.about h1 {
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  bottom: 40px;
   color: #012970;
 }
 
