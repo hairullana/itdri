@@ -346,7 +346,7 @@ section {
   font-weight: bold;
 }
 
-.getstarted:hover {
+.getstarted:hover, .getstarted a:hover {
   color: whitesmoke;
 }
 
