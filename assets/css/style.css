@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* overflow: hidden; */
-  display: contents !important;
+  display: block;
 }
 
 .section-header:after, .about h1:after{
@@ -322,12 +322,20 @@ section {
   border-radius: 20px;
 }
 
-.getstarted {
+.getstarted, .getstarted-big {
   background: #1F2855;
   padding: 8px 20px;
-  margin-left: 0px;
+  margin-left: 5px;
   border-radius: 20px;
   color: #fff;
+}
+
+.getstarted:hover, .getstarted-big:hover {
+  color: whitesmoke;
+}
+
+.getstarted-big {
+  padding: 15px 30px;
 }
 
 @media (max-width: 1366px) {
@@ -501,15 +509,18 @@ section {
   width: 1200%;
 }
 
-.login {
+.main {
   position: relative;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: url(../img/login-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.login, .regis {
+  background-image: url(../img/login-bg.jpg);
 }
 
 
@@ -620,6 +631,9 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
+
+
+
 .values .box {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
@@ -2427,4 +2441,127 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+
+
+
+
+
+
+
+
+.app {
+  max-width: 880px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.app i {
+  font-size: 80px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+.art{
+  margin: auto;
+}
+.article {
+  border-radius: 20px;
+  position: relative;
+  min-width:25%;
+  height: 70px;
+  margin: 0 auto;
+  float: left;
+  border: 2px solid #1F2855;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.article div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+  transition: .5s ease;
+}
+
+.article input {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  opacity: 0;
+  cursor: pointer;
+  /* position: relative; */
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+input[type=checkbox]:checked ~ div {
+  border-radius: 20px !important;
+  background-color: #1F2855;
+  color: white;
+}
+
+.upgrade-btn {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  padding: 10px 20px;
+  border: 2px solid #1F2855;
+  border-radius: 50px;
+  color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.upgrade-btn:hover {
+  background-color: #1F2855;
+}
+
+.blue-color {
+  color: #1F2855;
+}
+
+.gray-color {
+  color: #555;
+}
+
+.social i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top:5px;
+  right:5px;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin: 0%;
+    width: 100%;
+  }
+}
+
+
+/* CSS TAMBAHAN SENDIRI */
+.after-regis .btn-group input[type=checkbox] {
+  color: red;
 }
