@@ -258,7 +258,7 @@ section {
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  /* color: #013289; */
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -270,7 +270,7 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #1F2855;
+  /* color: #1F2855; */
 }
 
 .navbar .getstarted a:hover{
@@ -610,7 +610,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about2{
+.about2, .home{
   position: relative;
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -619,6 +619,9 @@ section {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+.home{
+  background-image: url(../img/home-bg.jpg);
 }
 .about .content {
   padding: 40px;
