@@ -339,6 +339,10 @@ section {
   color: #fff;
 }
 
+.getstarted a, .getstarted-big a{
+  color: whitesmoke;
+}
+
 .getstarted-big{
   background-color: whitesmoke;
   color: #1F2855;
