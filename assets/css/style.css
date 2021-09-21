@@ -2579,3 +2579,60 @@ input[type=checkbox]:checked ~ div {
     width: 100%;
   }
 }
+
+
+/* PAGINATION */
+
+.pagination,
+.pagination li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.pagination li {
+  /* background: #f23b26; */
+  list-style: none;
+}
+.pagination li a {
+  color: #1F2855;
+  height: 30px;
+  width: 30px;
+  border-right-width: 0px;
+  border-radius: 10px;
+}
+.pagination .arrow {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.pagination li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-top-color: rgba(0, 0, 0, 0.35);
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.pagination li a:focus,
+.pagination li a:active{
+  background: #1F2855;
+  color: whitesmoke;
+}
+
+/*  card */
+
+.card-text2 {
+  position: relative;
+  margin-top: -70px;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 1px #1F2855;
+  text-align: center;
+}
+.card, .card-img-top{
+  max-height: 200px;
+  border-radius: 20px;
+  border: 0px;
+}
