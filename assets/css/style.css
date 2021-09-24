@@ -2651,7 +2651,7 @@ input[type=checkbox]:checked ~ div {
 
 .card-text2 {
   position: relative;
-  margin-top: -70px;
+  margin-top: -80px;
   padding: 10px;
   color: whitesmoke;
   font-weight: bold;
