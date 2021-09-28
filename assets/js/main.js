@@ -287,3 +287,33 @@
   });
 
 })();
+
+var slide = 1;
+
+function showSlide(indexslide) {
+  const slides = document.getElementsByClassName('carousel');
+  if (indexslide > slides.length) { slide = 1 }
+  if (indexslide < 1) { slide = slides.length }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none'
+  }
+  slides[slide - 1].style.display = 'flex'
+}
+
+function nextSlide() {
+  showSlide(slide += 1);
+}
+
+function prevSlide() {
+  showSlide(slide -= 1);
+}
+
+window.onload = function () {
+  showSlide(slide);
+  document.getElementById('prev').addEventListener('click', function () {
+    prevSlide();
+  })
+  document.getElementById('next').addEventListener('click', function () {
+    nextSlide();
+  })
+}
