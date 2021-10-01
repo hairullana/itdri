@@ -358,7 +358,7 @@ section {
   border-radius: 20px;
 }
 
-.getstarted, .getstarted-big, .getstarted-white {
+.getstarted, .getstarted-big, .getstarted-white, .getstarted-big-blue {
   background: #1F2855;
   padding: 8px 20px;
   margin-left: 5px;
@@ -378,17 +378,22 @@ section {
   color: whitesmoke;
 }
 
-.getstarted-big{
+.getstarted-big, .getstarted-big-blue{
   background-color: whitesmoke;
   color: #1F2855;
   font-weight: bold;
+}
+
+.getstarted-big-blue{
+  background-color: #1F2855;
+  color: whitesmoke;
 }
 
 .getstarted:hover, .getstarted a:hover {
   color: whitesmoke;
 }
 
-.getstarted-big {
+.getstarted-big, .getstarted-big-blue {
   padding: 15px 30px;
 }
 
@@ -565,8 +570,8 @@ section {
 
 .main {
   position: relative;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
