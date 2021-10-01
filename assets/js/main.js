@@ -317,3 +317,10 @@ window.onload = function () {
     nextSlide();
   })
 }
+
+function products() {
+  window.location = '#pallet1'
+}
+function testimonials() {
+  window.location = '#testimonials'
+}
