@@ -633,6 +633,7 @@ section {
   position: relative;
   padding-top: 10rem;
   padding-bottom: 10rem;
+  min-height: 665px;
   background-image: url(../img/about-us-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
