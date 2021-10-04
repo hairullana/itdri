@@ -27,6 +27,11 @@
 
   <link rel="stylesheet" href="assets/carousel/css/owl.carousel.min.css">
 
+  <!-- sweetalert CSS -->
+  <link rel="stylesheet" href="assets/vendor/sweetalert2/sweetalert2.min.css">
+  <!-- Sweetalert2 JS -->
+  <script src="assets/vendor/sweetalert2/sweetalert2.min.js"></script>
+
   <!-- Bootstrap CSS -->
   <!-- <link rel="stylesheet" href="assets/carousel/css/bootstrap.min.css"> -->
   
@@ -80,7 +85,7 @@
                         <div class="box">
                           <h3 style="color: #07d5c0;">Free Plan</h3>
                           <div class="price mb-3"><sup>$</sup>0</div>
-                          <a href="cart.html" class="getstarted">Select</a>
+                          <a id="select1" class="getstarted">Select</a>
                         </div>
                       </div>
             
@@ -89,7 +94,7 @@
                           <span class="featured">Featured</span>
                           <h3 style="color: #65c600;">Starter Plan</h3>
                           <div class="price mb-3"><sup>$</sup>19</div>
-                          <a href="cart.html" class="getstarted">Select</a>
+                          <a id="select2" class="getstarted">Select</a>
                         </div>
                       </div>
             
@@ -97,7 +102,7 @@
                         <div class="box">
                           <h3 style="color: #ff901c;">Business Plan</h3>
                           <div class="price mb-3"><sup>$</sup>29</div>
-                          <a href="cart.html" class="getstarted">Select</a>
+                          <a id="select3" class="getstarted">Select</a>
                         </div>
                       </div>
             
@@ -105,7 +110,7 @@
                         <div class="box">
                           <h3 style="color: #ff0071;">Ultimate Plan</h3>
                           <div class="price mb-3"><sup>$</sup>49</div>
-                          <a href="cart.html" class="getstarted">Select</a>
+                          <a id="select4" class="getstarted">Select</a>
                         </div>
                       </div>
             
@@ -141,24 +146,24 @@
         
                   <div class="owl-carousel owl-2" style="text-align: justify;">
                     <div class="media-29101">
-                      <a href="detail-1.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                      <h5><a href="detail-1.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h5>
+                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <h5><a href="detail.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h5>
                     </div>
                     <div class="media-29101">
-                      <a href="detail-2.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
-                      <h5><a href="detail-2.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h5>
+                      <a href="detail.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
+                      <h5><a href="detail.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h5>
                     </div>
                     <div class="media-29101">
-                      <a href="detail-3.html"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
-                      <h5><a href="detail-3.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h5>
+                      <a href="detail.html"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
+                      <h5><a href="detail.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h5>
                     </div>
                     <div class="media-29101">
-                      <a href="detail-4.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                      <h5><a href="detail-4.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h5>
+                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <h5><a href="detail.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h5>
                     </div>
                     <div class="media-29101">
-                      <a href="detail-5.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
-                      <h5><a href="detail-5.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h5>
+                      <a href="detail.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
+                      <h5><a href="detail.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h5>
                     </div>
                   </div>
           
@@ -206,3 +211,93 @@
 </body>
 
 </html>
+
+<script>
+  document.getElementById('select1').onclick = function(){
+    Swal.fire({
+      title: 'Success Insert',
+      // text: "You won't be able to revert this!",
+      imageUrl: 'assets/img/cart.png',
+      // imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonColor: '#1F2855',
+      confirmButtonText: 'Explore Other Product'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    })
+    // alert('a')
+  }
+
+  document.getElementById('select2').onclick = function(){
+    Swal.fire({
+      title: 'Success Insert',
+      // text: "You won't be able to revert this!",
+      imageUrl: 'assets/img/cart.png',
+      // imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonColor: '#1F2855',
+      confirmButtonText: 'Explore Other Product'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    })
+    // alert('a')
+  }
+
+  document.getElementById('select3').onclick = function(){
+    Swal.fire({
+      title: 'Success Insert',
+      // text: "You won't be able to revert this!",
+      imageUrl: 'assets/img/cart.png',
+      // imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonColor: '#1F2855',
+      confirmButtonText: 'Explore Other Product'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    })
+    // alert('a')
+  }
+
+  document.getElementById('select4').onclick = function(){
+    Swal.fire({
+      title: 'Success Insert',
+      // text: "You won't be able to revert this!",
+      imageUrl: 'assets/img/cart.png',
+      // imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonColor: '#1F2855',
+      confirmButtonText: 'Explore Other Product'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    })
+    // alert('a')
+  }
+</script>

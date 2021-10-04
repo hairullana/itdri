@@ -19,6 +19,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- sweetalert CSS -->
+  <link rel="stylesheet" href="assets/vendor/sweetalert2/sweetalert2.min.css">
+  <!-- Sweetalert2 JS -->
+  <script src="assets/vendor/sweetalert2/sweetalert2.min.js"></script>
+
+  
 </head>
 
 <body>
@@ -256,7 +262,7 @@
                     <div class="row">
                         <div class="col-12 getstarted text-center">
                             <span>
-                                <a href="purchase.html">CHECKOUT</a>
+                                <a id="checkout">CHECKOUT</a>
                             </span>
                         </div>
                     </div>
@@ -294,3 +300,27 @@
 </body>
 
 </html>
+
+<script>
+  document.getElementById('checkout').onclick = function(){
+    Swal.fire({
+      title: 'Subscribe has been successful, we will contact you soon !',
+      // text: "You won't be able to revert this!",
+      imageUrl: 'assets/img/cart.png',
+      // imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonColor: '#1F2855',
+      confirmButtonText: 'Explore Other Product'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    })
+    // alert('a')
+  }
+</script>
