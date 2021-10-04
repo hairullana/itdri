@@ -2804,8 +2804,8 @@ label {
   display: block;
   opacity: 0.5;
   height: 50px;
-  text-align: center;
-  line-height: 50px;
+  /* text-align: center; */
+  /* line-height: 50px; */
   position: relative;
 }
 
@@ -3175,4 +3175,16 @@ to{width: 24em;}
 @keyframes blinkTextCursor{
 from{border-right-color: rgba(255,255,255,.75);}
 to{border-right-color: transparent;}
+}
+
+
+
+.login-card{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.login-card img {
+  max-width: 150px;
 }
