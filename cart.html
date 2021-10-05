@@ -312,15 +312,8 @@
       imageAlt: 'Custom image',
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire(
-          'Deleted!',
-          'Your file has been deleted.',
-          'success'
-        )
-      }
-    })
-    // alert('a')
+    }).then(function(){
+      window.location = 'home.html';
+    });
   }
 </script>
