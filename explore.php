@@ -25,7 +25,7 @@ session_start();
             <img class="logo-login" src="assets/img/logo.png" alt="">
           </div>
           <div class="text-center">
-            <img src="assets/img/cart.png" alt="" style="max-height:200px"><br/>
+            <img src="assets/img/thanks.png" alt="" style="max-height:200px"><br/>
             <span class="mt-4" style="color: #33475c;font-size: 2.5rem;font-weight: bold;">Thanks <?= $_SESSION['nama'] ?>,</span><br/>
             We got your masterplan and enjoy to explore our directory!
             <div class="mt-5">

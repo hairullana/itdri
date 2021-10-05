@@ -200,13 +200,12 @@ section {
   padding: 0 5%;
 }
 
+
+
 .header-violet li a {
   color: whitesmoke;
 }
 
-.getstarted-white a {
-  color: #1F2855;
-}
 
 .header.header-scrolled, .header-violet.header-scrolled {
   background: #fff;

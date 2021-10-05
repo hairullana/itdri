@@ -261,7 +261,7 @@ session_start();
     Swal.fire({
       title: 'Subscribe has been successful, we will contact you soon !',
       // text: "You won't be able to revert this!",
-      imageUrl: 'assets/img/cart.png',
+      imageUrl: 'assets/img/cart2.png',
       // imageWidth: 400,
       imageHeight: 200,
       imageAlt: 'Custom image',

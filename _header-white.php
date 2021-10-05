@@ -24,7 +24,7 @@
         </a>
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a href="cart.php" class="getstarted"><i class="bi bi-cart-fill"></i></a></li>
+            <li><a href="cart.php"><i style="font-size: 1.5rem !important;" class="bi bi-cart-fill"></i></a></li>
             <li><a href="purchase.php">My Purchases</a></li>
             <li><a href="profile.php">My Account</a></li>
             <li><a href="logout.php">Logout</a></li>

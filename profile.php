@@ -20,7 +20,7 @@ session_start();
     <div class="container">
       <div class="row">
         <div class="col-lg-5 hero-img my-auto text-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/account.gif" class="img-fluid" style="height: 300px; width: auto;" alt="">
+          <img src="assets/img/user.png" class="img-fluid" style="height: 300px; width: auto;" alt="">
           <h2 class="mt-5"><?= $_SESSION['nama'] ?> <sup style="font-size: 1.5rem;" id="change-name"><i class="bi bi-pencil-fill"></i></sup></h2>
         </div>
         <div class="col-lg-6 offset-lg-1 d-flex flex-column justify-content-center">

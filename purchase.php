@@ -17,20 +17,20 @@ session_start();
 
   <?php require '_header-white.php' ?>
 
-  <section id="purchase" class="main mt-md-5">
+  <section id="purchase" class="main mt-5">
     <div class="container">
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-12  my-5">
           <div class="row">
-            <h3 class="fw-bold">My Purchase</h3>
+            <div style="font-size: 3rem;" class="fw-bold">My Purchase</div>
           </div>
         </div>
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5 offset-md-1">
           <div class="post-box">
-            <div class="post-img"><img src="assets/img/Learning & innovations Smarteye Virtual Convention-Center-Platform-event-virtual.png" class="img-fluid" alt=""></div>
+            <div class="post-img"><img src="assets/img/laptop.png" class="img-fluid" alt=""></div>
             <span class="post-date">LEARNING & INNOVATION</span>
             <br>
             <span class="post-date"> Smart eye</span>
@@ -39,9 +39,9 @@ session_start();
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="post-box">
-            <div class="post-img"><img src="assets/img/Learning & innovations Smarteye Virtual Convention-Center-Platform-event-virtual.png" class="img-fluid" alt=""></div>
+            <div class="post-img"><img src="assets/img/laptop.png" class="img-fluid" alt=""></div>
             <span class="post-date">LEARNING & INNOVATION</span>
             <br>
             <span class="post-date"> Smart eye</span>
