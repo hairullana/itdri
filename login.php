@@ -1,3 +1,7 @@
+<?php
+session_start();
+require '_functions.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +27,7 @@
             <h3 class="mt-4"><b>Hi ! Happy To See You Again !</b></h3>
             <h6>Log in with data you entered during your registration.</h6>
           </div>
-          <form>
+          <form ta method="POST">
             <!-- Email input -->
             <div class="row gy-4">
               <div class="col-md-12">
@@ -31,7 +35,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-person-fill'></i></div>
                   </div>
-                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="E-mail" name="email">
                 </div>
               </div>
                 <!-- Password input -->
@@ -40,7 +44,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-shield-lock-fill'></i></div>
                   </div>
-                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Password">
+                  <input type="password" class="form-control bounder-form" name="password" id="inlineFormInputGroupUsername2" placeholder="Password">
                 </div>
               </div>
               <div class="col-md-12 d-flex justify-content-between align-items-center">
@@ -58,7 +62,7 @@
                 </div>
               </div>
               <div class="col-md-6 offset-4">
-                <a href="home.php" class="getstarted">Let's Go</a>
+                <button type="submit" name="login" class="getstarted">Let's Go</button>
               </div>
               <p class="text-center small">Don't have an account? <a href="register.php" class="fw-bold">Sign Up</a></p>
             </div>
@@ -73,3 +77,61 @@
 </body>
 
 </html>
+
+<?php
+
+  if(!isset($_SESSION['nama'])) {
+    echo "
+      <script>
+          Swal.fire('AKSES DITOLAK','Silahkan melakukan pendaftaran terlebih dahulu','error').then(function(){
+            window.location = 'register.php';
+          });
+      </script>
+      ";
+  }
+
+  if (isset($_SESSION['login']) && $_SESSION['login'] == true){
+    echo "
+      <script>
+          Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','error').then(function(){
+            window.location = 'home.php';
+          });
+      </script>
+      ";
+  }
+
+  if (isset($_POST["login"])) {
+    // tangkap semua form
+    $email = htmlspecialchars($_POST["email"]);
+    $password = htmlspecialchars($_POST["password"]);
+
+    if (validasiNama($email) == true){
+        if (validasiPassword($password) == true){
+          echo "
+            <script>
+                Swal.fire('GAGAL LOGIN','Email atau password salah !','error');
+            </script>
+            ";
+        }
+    }
+
+    if ($email == $_SESSION['email'] && $password == $_SESSION['password']){
+      $_SESSION['login'] = true;
+        echo "
+          <script>
+              Swal.fire('BERHASIL LOGIN','','success').then(function(){
+                window.location = 'home.php';
+              });
+          </script>
+          ";
+    }else {
+      echo "
+        <script>
+            Swal.fire('GAGAL LOGIN','Email atau password salah !','error');
+        </script>
+        ";
+    }
+  }
+
+
+?>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +22,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 style="font-weight:750;font-size: 3rem;" class="text-white" data-aos="fade-up"><span class="" style="color: whitesmoke;">HI, MEYLINDA</span><br/><span class="stroke">WE GOT YOUR MASTERPLAN AND</span><br/><span style="color:whitesmoke;">ENJOY TO EXPLORE OUR DIRECTORY !</span></h1>
+          <h1 style="font-weight:750;font-size: 3rem;" class="text-white" data-aos="fade-up"><span class="" style="color: whitesmoke;">HI, <span style="text-transform:uppercase"><?= $_SESSION['nama'] ?></span></span><br/><span class="stroke">WE GOT YOUR MASTERPLAN AND</span><br/><span style="color:whitesmoke;">ENJOY TO EXPLORE OUR DIRECTORY !</span></h1>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start mt-4">
               <a href="#body" class="getstarted-big" style="background-color:whitesmoke;color: #1F2855;">Explore Now</a>
@@ -478,3 +481,18 @@
 </body>
 
 </html>
+
+<?php
+
+if (!isset($_SESSION['login']) || $_SESSION['login'] == false) {
+  echo "
+    <script>
+        Swal.fire('AKSES DITOLAK','Silahkan melakukan login terlebih dahulu','error').then(function(){
+          window.location = 'login.php';
+        });
+    </script>
+    ";
+}
+
+
+?>

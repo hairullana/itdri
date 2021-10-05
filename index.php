@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -99,9 +100,9 @@
               <div class="col-md-9" style="text-align: justify;">
                 <div class="card-body m-2">
                   <h2 class="fw-bold">Visi</h2>
-                  <p style="">Memastikan kesiapan Indonesia menghadapi persaingan teknologi dan globalisasi yang tidak bisa dihindari melalui pembentukan budaya inovasi, penguasaan sains, teknologi (riset dan inovasi), dan talenta digital global yang mampu menangkap peluang lapangan kerja, ekonomi bernilai tambah, dan transformasi ekonomi.</p>
+                  <p>Memastikan kesiapan Indonesia menghadapi persaingan teknologi dan globalisasi yang tidak bisa dihindari melalui pembentukan budaya inovasi, penguasaan sains, teknologi (riset dan inovasi), dan talenta digital global yang mampu menangkap peluang lapangan kerja, ekonomi bernilai tambah, dan transformasi ekonomi.</p>
                   <h2 class="fw-bold">Misi</h2>
-                  <div style="">
+                  <div>
                     <ul>
                       <li>
                         Mempercepat transformasi operasional dan ekosistem bisnis melalui kolaborasi dan kemitraan bisnis yang memadai dalam menghadapi persaingan digital global dan berdampak pada sosial dan ekonomi.

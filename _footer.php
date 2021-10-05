@@ -75,6 +75,6 @@
 </div>
 </footer><!-- End Footer -->
 
-<a href="faq.html" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icon/FAQ.png" style="max-width: 70px;" alt=""></a>
+<a href="faq.php" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icon/FAQ.png" style="max-width: 70px;" alt=""></a>
 
 <?php include '_footer-js.php' ?>

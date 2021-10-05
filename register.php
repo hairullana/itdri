@@ -1,3 +1,7 @@
+<?php
+session_start();
+require '_functions.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +27,7 @@
             <h6 class="mt-4">Start with ITDRI now</h6>
             <h3><b>Hi ! Happy To See You Again !</b></h3>
           </div>
-          <form>
+          <form method="POST">
             <!-- Email input -->
             <div class="row gy-3">
               <!-- your name -->
@@ -32,7 +36,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-person-fill'></i></div>
                   </div>
-                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Your name">
+                  <input type="text" class="form-control bounder-form" name="nama" placeholder="Your name">
                 </div>
               </div>
               <!-- email -->
@@ -41,7 +45,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-envelope-fill'></i></div>
                   </div>
-                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+                  <input type="text" class="form-control bounder-form" name="email" placeholder="E-mail">
                 </div>
               </div>
               <!-- phone -->
@@ -50,7 +54,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-telephone-fill'></i></div>
                   </div>
-                  <input type="text" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Phone number">
+                  <input type="text" class="form-control bounder-form" name="telp" placeholder="Phone number">
                 </div>
               </div>
                 <!-- Password input -->
@@ -59,7 +63,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-shield-lock-fill'></i></div>
                   </div>
-                  <input type="password" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Create password">
+                  <input type="password" class="form-control bounder-form" name="password1" placeholder="Create password">
                 </div>
               </div>
               <!-- repeat -->
@@ -68,7 +72,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class='bi bi-shield-lock-fill'></i></div>
                   </div>
-                  <input type="password" class="form-control bounder-form" id="inlineFormInputGroupUsername2" placeholder="Repeat Password">
+                  <input type="password" class="form-control bounder-form" name="password2" placeholder="Repeat Password">
                 </div>
               </div>
               <div class="col-md-12 d-flex justify-content-between align-items-center mt-3">
@@ -81,7 +85,7 @@
                 </div>
               </div>
               <div class="col-md-6 offset-4">
-                <a href="who.php" class="getstarted">Let's Go</a>
+                <button type="submit" name="daftar" class="getstarted">Let's Go</button>
               </div>
             </div>
           </form>
@@ -95,3 +99,58 @@
 </body>
 
 </html>
+
+<?php
+
+  if (isset($_POST["daftar"])) {
+    // tangkap semua form
+    $nama = htmlspecialchars($_POST["nama"]);
+    $email = htmlspecialchars($_POST["email"]);
+    $telp = htmlspecialchars($_POST["telp"]);
+    $password1 = htmlspecialchars($_POST["password1"]);
+    $password2 = htmlspecialchars($_POST["password2"]);
+
+    // validasi
+    if (validasiNama($nama) == true){
+      if (validasiTelp($telp) == true){
+        if (validasiPassword($password1) == true){
+          if (validasiPassword($password2) == true){
+            // cek password
+            if ($password1 != $password2) {
+              echo "
+                  <script>
+                      Swal.fire('PENDAFTARAN GAGAL','Password Yang Anda Masukkan Tidak Sama','error');
+                  </script>
+              ";
+            }else {
+              $_SESSION['nama'] = $nama;
+              $_SESSION['email'] = $email;
+              $_SESSION['telp'] = $telp;
+              $_SESSION['password'] = $password1;
+              echo "
+                <script>
+                    Swal.fire('PENDAFTARAN BERHASIL','','success').then(function(){
+                      window.location = 'who.php';
+                    });
+                </script>
+                ";
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+
+  if (isset($_SESSION['login']) && $_SESSION['login'] == true) {
+    echo "
+      <script>
+          Swal.fire('AKSES DITOLAK','Anda sudah login','error').then(function(){
+            window.location = 'home.php';
+          });
+      </script>
+      ";
+  }
+?>
+

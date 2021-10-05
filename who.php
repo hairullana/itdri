@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,3 +40,17 @@
 </body>
 
 </html>
+
+<?php
+
+if ($_SESSION['login'] == true) {
+  echo "
+    <script>
+        Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','error').then(function(){
+          window.location = 'index.php';
+        });
+    </script>
+    ";
+}
+
+?>
