@@ -26,14 +26,14 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="22">
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="purchase.html">My Purchases</a></li>
-          <li><a href="profile.html">My Account</a></li>
-          <li><a href="cart.html" class="getstarted"><i class="bi bi-cart-fill"></i></a></li>
+          <li><a href="purchase.php">My Purchases</a></li>
+          <li><a href="profile.php">My Account</a></li>
+          <li><a href="cart.php" class="getstarted"><i class="bi bi-cart-fill"></i></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -82,7 +82,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>
@@ -149,7 +149,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>
@@ -165,7 +165,7 @@
                       Start : 01 Januari 2021 <br>
                       End : 01 Desember 2021
                     </p>
-                    <p class="getstarted text-center"><a href="view.html">View</a></p>
+                    <p class="getstarted text-center"><a href="view.php">View</a></p>
                   </div>
                 </div>
               </div>

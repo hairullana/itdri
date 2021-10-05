@@ -7,23 +7,7 @@
 
   <title>Login | ITDRI</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <?php require '_headtags.php' ?>
 </head>
 
 <body>
@@ -74,9 +58,9 @@
                 </div>
               </div>
               <div class="col-md-6 offset-4">
-                <a href="home.html" class="getstarted">Let's Go</a>
+                <a href="home.php" class="getstarted">Let's Go</a>
               </div>
-              <p class="text-center small">Don't have an account? <a href="register.html" class="fw-bold">Sign Up</a></p>
+              <p class="text-center small">Don't have an account? <a href="register.php" class="fw-bold">Sign Up</a></p>
             </div>
           </form>
         </div>
@@ -84,15 +68,7 @@
     </div>
   </section>
 
-  <!-- Vendor JS Files -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php require '_footer-js.php' ?>
 
 </body>
 

@@ -5,45 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>ITDRI</title>
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/carousel.css">
+  <?php require '_headtags.php' ?>
 
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-violet fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo-white.png" alt="">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#about">About Us</a></li>
-          <li><a class="getstarted scrollto" href="login.html">Login</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <?php require '_header-violet.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="main home d-flex align-items-center">
@@ -54,7 +22,7 @@
           <h1 style="font-weight:750;" class="text-white mt-5 line-1 anim-typewriter">WE ASSIST YOUR<br/>JOURNEY TO THE FUTURE.</h1>
           <!-- <h2 data-aos="fade-up" data-aos-delay="400">Anytime, anywhere to do discover yourself.</h2> -->
 
-          <a href="register.html" class="getstarted-white scrollto d-inline-flex align-items-center justify-content-center align-self-center mt-4">Get Started</a>
+          <a href="register.php" class="getstarted-white scrollto d-inline-flex align-items-center justify-content-center align-self-center mt-4">Get Started</a>
         </div>
         <!-- <div class="col-lg-4 offset-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="200">
           <img src="assets/img/hero-img.gif" class="img-fluid" alt="">
@@ -80,7 +48,7 @@
       </div>
     </div>
     <div class="button-carousel">
-      <a href="login.html" class="getstarted-big-blue">Explore Now !</a>
+      <a href="login.php" class="getstarted-big-blue">Explore Now !</a>
     </div>
   </section>
 
@@ -265,29 +233,7 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container mt-lg-4">
-      <div class="copyright">
-        &copy; 2021. Indonesia Telecomunication Digital Research Institute (ITDRI)
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="faq.html" class="back-to-top2 d-flex align-items-center justify-content-center"><img src="assets/img/icon/FAQ.png" style="max-width: 70px;" alt=""></a>
-  <a href="faq.html" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icon/FAQ.png" style="max-width: 70px;" alt=""></a>
-
-  <!-- Vendor JS Files -->
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php require '_footer.php' ?>
 
 </body>
 

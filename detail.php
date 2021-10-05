@@ -6,59 +6,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Detail Product | ITDRI</title>
-
-  <link href="assets/img/favicon.png" rel="icon">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/carousel.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/carousel/fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="assets/carousel/css/owl.carousel.min.css">
-
-  <!-- sweetalert CSS -->
-  <link rel="stylesheet" href="assets/vendor/sweetalert2/sweetalert2.min.css">
-  <!-- Sweetalert2 JS -->
-  <script src="assets/vendor/sweetalert2/sweetalert2.min.js"></script>
-
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="assets/carousel/css/bootstrap.min.css"> -->
-  
-  <!-- Style -->
-  <link rel="stylesheet" href="assets/carousel/css/style.css">
-  <link rel="stylesheet" href="assets/css/carousel.css">
+  <?php require '_headtags.php' ?>
 </head>
 
 <body>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top">
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="22">
-        </a>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="purchase.html">My Purchases</a></li>
-            <li><a href="profile.html">My Account</a></li>
-            <li><a href="cart.html" class="getstarted"><i class="bi bi-cart-fill"></i></a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-      </div>
-    </header>
-    <!-- End Header -->
+  <?php include '_header-white.php' ?>
 
 
     <main id="detail" class="main mt-5" style="padding-bottom: 5rem;">
@@ -205,11 +158,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="media-29101">
-                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                       </div>
-                      <h3><a href="detail.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
+                      <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
                     </div>
                   </div>
                 </div>
@@ -217,11 +170,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="media-29101">
-                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                       <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
-                      <h3><a href="detail.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
+                      <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
                     </div>
                   </div>
                 </div><!-- End testimonial item -->
@@ -229,11 +182,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="media-29101">
-                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                       <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                     </div>
-                      <h3><a href="detail.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
+                      <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
                     </div>
                   </div>
                 </div><!-- End testimonial item -->
@@ -241,11 +194,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="media-29101">
-                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                       <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
-                      <h3><a href="detail.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
+                      <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
                     </div>
                   </div>
                 </div><!-- End testimonial item -->
@@ -253,11 +206,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="media-29101">
-                      <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                      <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                       <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
-                      <h3><a href="detail.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
+                      <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
                     </div>
                   </div>
                 </div><!-- End testimonial item -->
@@ -272,36 +225,7 @@
         <!-- End About Section -->
     </main>
 
-    <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    
-
-    <div class="container">
-      <div class="copyright">
-        &copy;2021. <strong><span>Indonesia Telecomunication Digital Research Institute (ITDRI) </span></strong>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <script src="assets/carousel/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/carousel/js/popper.min.js"></script>
-  <!-- <script src="assets/carousel/js/bootstrap.min.js"></script> -->
-  <script src="assets/carousel/js/owl.carousel.min.js"></script>
-  <script src="assets/carousel/js/main.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php include '_footer.php' ?>
 
 </body>
 
@@ -319,7 +243,7 @@
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
     }).then(function(){
-      window.location = 'home.html';
+      window.location = 'home.php';
     });
     // alert('a')
   }
@@ -335,7 +259,7 @@
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
     }).then(function(){
-      window.location = 'home.html';
+      window.location = 'home.php';
     });
     // alert('a')
   }
@@ -351,7 +275,7 @@
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
     }).then(function(){
-      window.location = 'home.html';
+      window.location = 'home.php';
     });
     // alert('a')
   }
@@ -367,7 +291,7 @@
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
     }).then(function(){
-      window.location = 'home.html';
+      window.location = 'home.php';
     });
     // alert('a')
   }
@@ -383,7 +307,7 @@
       confirmButtonColor: '#1F2855',
       confirmButtonText: 'Explore Other Product'
     }).then(function(){
-      window.location = 'home.html';
+      window.location = 'home.php';
     });
     // alert('a')
   }

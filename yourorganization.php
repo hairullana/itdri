@@ -5,35 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Complete Organization | ITDRI</title>
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <?php require '_headtags.php' ?>
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-violet fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="#" class="logo d-flex align-items-center">
-        <img src="assets/img/logo-white.png" alt="22">
-      </a>
-      <nav id="navbar" class="navbar mb-auto">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </div>
-  </header>
-
+  <?php require '_header-violet.php' ?>
   <!-- main -->
   <main id="main">
 
@@ -389,7 +366,7 @@
           </div>
           <div class="col-12 my-5">
             <a href="#yourorganization4" class="getstarted-big"><span>PREVIOUS</span></a>
-            <a href="home.html" class="getstarted-big"><span>NEXT</span></a>
+            <a href="home.php" class="getstarted-big"><span>NEXT</span></a>
           </div>
 
         </div>
@@ -406,28 +383,7 @@
 
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-
-
-    <div class="container">
-      <div class="copyright">
-        &copy;2021. <strong><span>Indonesia Telecomunication Digital Research Institute (ITDRI) </span></strong>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php require '_footer-js.php' ?>
 
 </body>
 </html> 

@@ -1701,6 +1701,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact2 {
+  background-color: #1F2855;
+}
 .contact .info-box {
   color: #444444;
   background: #fafbff;
@@ -3204,4 +3207,8 @@ to{border-right-color: transparent;}
 
 .rating {
   font-size: 2rem;
+}
+
+.sosmed a i{
+  color: white;
 }

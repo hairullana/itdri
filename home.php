@@ -5,57 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>ITDRI</title>
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/carousel.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/carousel/fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="assets/carousel/css/owl.carousel.min.css">
-
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="assets/carousel/css/bootstrap.min.css"> -->
-  
-  <!-- Style -->
-  <link rel="stylesheet" href="assets/carousel/css/style.css">
-  <link rel="stylesheet" href="assets/css/carousel.css">
+  <?php require '_headtags.php' ?>
 
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-violet fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo-white.png" alt="">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="purchase.html">My Purchases</a></li>
-          <li><a href="profile.html">My Account</a></li>
-          <li><a href="cart.html"><i class="bi bi-cart-fill"></i></a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-    </div>
-  </header><!-- End Header -->
+  <?php require '_header-violet.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="jumbotron" class="main home d-flex align-items-center">
@@ -193,11 +149,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                   </div>
-                  <h3><a href="detail.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
+                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
                 </div>
               </div>
             </div>
@@ -205,11 +161,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
+                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -217,11 +173,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                 </div>
-                  <h3><a href="detail.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
+                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -229,11 +185,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
+                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -241,11 +197,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
+                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -271,11 +227,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                   </div>
-                  <h3><a href="detail.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
+                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
                 </div>
               </div>
             </div>
@@ -283,11 +239,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
+                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -295,11 +251,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                 </div>
-                  <h3><a href="detail.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
+                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -307,11 +263,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
+                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -319,11 +275,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
+                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -349,11 +305,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                   </div>
-                  <h3><a href="detail.html">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
+                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
                 </div>
               </div>
             </div>
@@ -361,11 +317,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
+                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -373,11 +329,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
                 </div>
-                  <h3><a href="detail.html">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
+                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -385,11 +341,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
+                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -397,11 +353,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="media-29101">
-                  <a href="detail.html"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
+                  <a href="detail.php"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
                   <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                  <h3><a href="detail.html">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
+                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -517,102 +473,7 @@
     <!-- End Testimonials Section -->
 
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style="margin-top: 3rem;">
-
-      <div class="container mt-5" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <!-- ringkasan itdri -->
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-12">
-                <img src="assets/img/logo.png" style="max-width:40%" alt="">
-                <h5><b>Let's connect with us</b></h5>
-                <p>
-                  Jadilah yang pertama untuk mengambil langkah membangun ekosistem learning, innovation, dan research yang terintegrasi guna menghasilkan inovasi-inovasi yang lebih bermanfaat bagi seluruh rakyat Indonesia.<br/>
-                  <br/>
-                  Alamat: Jl. Gegerkalong Hilir, Sukarasa, Kec. Sukasari,  Kota Bandung, Jawa Barat 40152
-                </p>
-              </div>
-              <div class="col-md-12" style="font-size: 2rem;">
-                <div class="row">
-                  <div class="col-1"><a href="https://facebook.com/itdri.indonesia/"><i class="bi bi-facebook"></i></a></div>
-                  <div class="col-1"><a href="https://www.instagram.com/itdri.id/"><i class="bi bi-instagram"></i></a></div>
-                  <div class="col-1"><a href="https://www.youtube.com/channel/UClhtUyOVtkGZZ0SiuvIvRrQ"><i class="bi bi-youtube"></i></a></div>
-                  <div class="col-1"><a href="https://twitter.com/itdri_id"><i class="bi bi-twitter"></i></a></div>
-                  <div class="col-1"><a href="https://www.linkedin.com/company/itdri-id/"><i class="bi bi-linkedin"></i></a></div>
-                  <div class="col-1"><a href="tel:628119511001"><i class="bi bi-telephone-fill"></i></a></div>
-                  <div class="col-1"><a href="mailto:hello@itdri.id"><i class="bi bi-envelope-fill"></i></a></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!-- form -->
-          <div class="col-lg-5 offset-lg-1">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-                <h2 class="fw-bold">Get in Touch</h2>
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="email" placeholder="Email Address" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Type your message ..." required></textarea>
-                </div>
-
-                <div class="col-md-4 offset-md-8 text-center">
-                  <button type="submit">Submit</button>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Contact Section -->
-
-  </div><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container mt-lg-4">
-      <div class="copyright">
-        &copy; 2021. Indonesia Telecomunication Digital Research Institute (ITDRI)
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="faq.html" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icon/FAQ.png" style="max-width: 70px;" alt=""></a>
-
-  <!-- Vendor JS Files -->
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <script src="assets/carousel/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/carousel/js/popper.min.js"></script>
-  <!-- <script src="assets/carousel/js/bootstrap.min.js"></script> -->
-  <script src="assets/carousel/js/owl.carousel.min.js"></script>
-  <script src="assets/carousel/js/main.js"></script>
+  <?php require '_footer.php' ?>
 
 </body>
 
