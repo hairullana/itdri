@@ -24,7 +24,7 @@ session_start();
             <img class="logo-login" src="assets/img/logo.png" alt="">
           </div>
           <div class="text-center">
-            <span class="mt-4" style="color: #33475c;font-size: 2rem;font-weight: bold;padding: 1rem;">Hi Dane ! Who's journey you want to explore?</span>
+            <span class="mt-4" style="color: #33475c;font-size: 2rem;font-weight: bold;padding: 1rem;">Hi <?= $_SESSION['nama'] ?> ! Who's journey you want to explore?</span>
             <div class="my-5">
               <a href="yourself.php" class="getstarted-white fw-bold"><i class="bi bi-person-fill"></i> PERSONAL</a>
               <a href="yourorganization.php" class="getstarted-white fw-bold"><i class="bi bi-people-fill"></i> ORGANIZATION</a>

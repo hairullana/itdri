@@ -33,9 +33,9 @@ session_start();
             <div class="post-img"><img src="assets/img/laptop.png" class="img-fluid" alt=""></div>
             <span class="post-date">LEARNING & INNOVATION</span>
             <br>
-            <span class="post-date"> Smart eye</span>
-            <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-            <a href="#" class="readmore stretched-link mt-auto"><span>Detail Produk</span><i class="bi bi-arrow-right"></i></a>
+            <h3 class="post-date"> Smart eye</h3>
+            <p class="post-title" style="text-align: justify;">Smarteye Virtual conversation center merupakan platform event virtual yang menghadirkan cara baru dalam melaksanakan webminar, didevelop oleh smarteye amoeba dari Telkom Indonesia. Keunggulan dari SVCC yakni menghadirkan experience baru menonton webminar dengan berbagai trivia dan fitur unggulan berupa presensi dan reporting data.</p>
+            <a href="detail.php" class="getstarted"><span>Detail Produk</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
@@ -44,9 +44,9 @@ session_start();
             <div class="post-img"><img src="assets/img/laptop.png" class="img-fluid" alt=""></div>
             <span class="post-date">LEARNING & INNOVATION</span>
             <br>
-            <span class="post-date"> Smart eye</span>
-            <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-            <a href="#" class="readmore stretched-link mt-auto"><span>Detail Produk</span><i class="bi bi-arrow-right"></i></a>
+            <h3 class="post-date"> Smart eye</h3>
+            <p class="post-title" style="text-align: justify;">Smarteye Virtual conversation center merupakan platform event virtual yang menghadirkan cara baru dalam melaksanakan webminar, didevelop oleh smarteye amoeba dari Telkom Indonesia. Keunggulan dari SVCC yakni menghadirkan experience baru menonton webminar dengan berbagai trivia dan fitur unggulan berupa presensi dan reporting data.</p>
+            <a href="detail.php" class="getstarted"><span>Detail Produk</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>

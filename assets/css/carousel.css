@@ -162,31 +162,31 @@ span {
 
 
 .carousel__face:nth-child(1) {
-  background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/Big\ Data\ Platform.jpg");
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-  background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/API\ Management.jpg");
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-  background-image: url("https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/AI\ and\ Management.jpg");
   transform: rotateY( 80deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-  background-image: url("https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/Analytics\ Platform.jpg");
   transform: rotateY(120deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-  background-image: url("https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/Smarteye.jpg");
  transform: rotateY(160deg) translateZ(430px); }
 .carousel__face:nth-child(6) { 
-  background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/OCA\ Chatbot.jpg");
  transform: rotateY(200deg) translateZ(430px); }
 .carousel__face:nth-child(7) { 
-  background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/Management\ Data.jpg");
  transform: rotateY(240deg) translateZ(430px); }
 .carousel__face:nth-child(8) {
-  background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/Network\ Security.jpg");
   transform: rotateY(280deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
-  background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../img/product/File\ Tools.png");
   transform: rotateY(320deg) translateZ(430px); }
 
 

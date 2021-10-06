@@ -152,7 +152,7 @@ session_start();
     
             <header class="section-header">
               <!-- <h2>Testimonials</h2> -->
-              <p>Punya masalah dengan data yang banyak dan tidak teratur? <span class="text-info">Yuk coba intip penawaran ini</p>
+              <p>Mungkin juga cocok untuk anda.</p>
             </header>
     
             <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
