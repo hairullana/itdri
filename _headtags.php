@@ -32,3 +32,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="stylesheet" href="assets/carousel/fonts/icomoon/style.css">
 <link rel="stylesheet" href="assets/carousel/css/owl.carousel.min.css">
+<meta content='assets/img/itdri.jpeg' property='og:image'/>
