@@ -159,7 +159,8 @@ $sizes: map-merge(
 
 // Body
 //
-// Settings for the `<body>` element.
+// Settings for the `<body>
+  <?php include '_google.php' ?>` element.
 
 $body-bg:                   $white !default;
 $body-color:                $gray-900 !default;

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <?php include '_google.php' ?>
 
   <?php require '_header-white.php' ?>
 

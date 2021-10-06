@@ -13,6 +13,7 @@ session_start();
 </head>
 
 <body>
+  <?php include '_google.php' ?>
 
   <?php include '_header-white.php' ?>
 

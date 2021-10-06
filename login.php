@@ -15,6 +15,7 @@ require '_functions.php'
 </head>
 
 <body>
+  <?php include '_google.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="login" class="main login d-flex align-items-center">

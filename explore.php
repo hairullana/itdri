@@ -14,6 +14,7 @@ session_start();
 </head>
 
 <body>
+  <?php include '_google.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="explore" class="main regis d-flex align-items-center">

@@ -15,6 +15,7 @@ require '_functions.php'
 </head>
 
 <body>
+  <?php include '_google.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="regis" class="main regis d-flex align-items-center">

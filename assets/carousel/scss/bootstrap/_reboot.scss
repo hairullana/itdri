@@ -277,7 +277,8 @@ caption {
 }
 
 th {
-  // Matches default `<td>` alignment by inheriting from the `<body>`, or the
+  // Matches default `<td>` alignment by inheriting from the `<body>
+  <?php include '_google.php' ?>`, or the
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
