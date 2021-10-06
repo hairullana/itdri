@@ -105,7 +105,7 @@ session_start();
 if ($_SESSION['login'] == false) {
   echo "
     <script>
-        Swal.fire('AKSES DITOLAK','Anda harus melakukan login terlebih dahulu','error').then(function(){
+        Swal.fire('AKSES DITOLAK','Anda harus melakukan login terlebih dahulu','warning').then(function(){
           window.location = 'login.php';
         });
     </script>

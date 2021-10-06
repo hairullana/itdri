@@ -84,7 +84,7 @@ require '_functions.php'
   if(!isset($_SESSION['nama'])) {
     echo "
       <script>
-          Swal.fire('AKSES DITOLAK','Silahkan melakukan pendaftaran terlebih dahulu','error').then(function(){
+          Swal.fire('AKSES DITOLAK','Silahkan melakukan pendaftaran terlebih dahulu','warning').then(function(){
             window.location = 'register.php';
           });
       </script>
@@ -94,7 +94,7 @@ require '_functions.php'
   if (isset($_SESSION['login']) && $_SESSION['login'] == true){
     echo "
       <script>
-          Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','error').then(function(){
+          Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','warning').then(function(){
             window.location = 'home.php';
           });
       </script>

@@ -147,7 +147,7 @@ require '_functions.php'
   if (isset($_SESSION['login']) && $_SESSION['login'] == true) {
     echo "
       <script>
-          Swal.fire('AKSES DITOLAK','Anda sudah login','error').then(function(){
+          Swal.fire('AKSES DITOLAK','Anda sudah login','warning').then(function(){
             window.location = 'home.php';
           });
       </script>

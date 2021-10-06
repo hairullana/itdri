@@ -399,7 +399,7 @@ session_start();
 if ($_SESSION['login'] == true) {
   echo "
     <script>
-        Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','error').then(function(){
+        Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','warning').then(function(){
           window.location = 'index.php';
         });
     </script>
