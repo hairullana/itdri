@@ -83,7 +83,7 @@ session_start();
               </div>
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org1" class="btn-check" id="btncheck113" autocomplete="off">
-                <label class="btn btn-lg btn-outline-light" for="btncheck113">Agricculture</label>
+                <label class="btn btn-lg btn-outline-light" for="btncheck113">Agriculture</label>
               </div>
             </div>
             <div class="col-12 my-5">
@@ -152,7 +152,7 @@ session_start();
               </div>
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org2" class="btn-check" id="btncheck24" autocomplete="off">
-                <label class="btn btn-lg btn-outline-light" for="btncheck24">Business Devlopment</label>
+                <label class="btn btn-lg btn-outline-light" for="btncheck24">Business Development</label>
               </div>
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org2" class="btn-check" id="btncheck25" autocomplete="off">
@@ -186,7 +186,7 @@ session_start();
             <div class="col-12 my-2">
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org3" class="btn-check" id="getting-new-tolent" autocomplete="off">
-                <label class="btn btn-lg btn-outline-light" for="getting-new-tolent">Getting New Tolent</label>
+                <label class="btn btn-lg btn-outline-light" for="getting-new-tolent">Getting New Talent</label>
               </div>
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org3" class="btn-check" id="provide-learning" autocomplete="off">
@@ -352,7 +352,7 @@ session_start();
             <div class="col-12 my-2">
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org5" class="btn-check" id="btncheck45" autocomplete="off">
-                <label class="btn btn-lg btn-outline-light" for="btncheck45">Utilze Technology </label>
+                <label class="btn btn-lg btn-outline-light" for="btncheck45">Utilize Technology </label>
               </div>
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" name="org5" class="btn-check" id="btncheck46" autocomplete="off">
