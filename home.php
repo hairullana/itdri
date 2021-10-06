@@ -152,63 +152,59 @@ session_start();
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/11.png" class="img-fluid" alt=""></a>
                   </div>
-                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
-                </div>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/12.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
-                </div>
-                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/13.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/14.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/15.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/16.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/17.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -222,71 +218,67 @@ session_start();
 
         <header class="section-header">
           <!-- <h2>Testimonials</h2> -->
-          <p>Punya masalah dengan data yang banyak dan tidak teratur? <span class="text-info">Yuk coba intip penawaran ini</p>
+          <p>Percepat Perjalanan Transformasi Digital Perusahaan Semakin Didepan</p>
         </header>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/21.png" class="img-fluid" alt=""></a>
                   </div>
-                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
-                </div>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/22.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
-                </div>
-                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/23.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/bigbox.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/24.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/25.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/26.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/27.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -300,71 +292,67 @@ session_start();
 
         <header class="section-header">
           <!-- <h2>Testimonials</h2> -->
-          <p>Punya masalah dengan data yang banyak dan tidak teratur? <span class="text-info">Yuk coba intip penawaran ini</p>
+          <p>Persiapkan Perusahaan Anda Menyambut Dunia Digital dan Menjadikan Segalanya Lebih Nyata</p>
         </header>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/31.png" class="img-fluid" alt=""></a>
                   </div>
-                  <h3><a href="detail.php">Menampilkan data visual sekarang lebih mudah dengan menggunakan BigOne: Basic Big Data</a></h3>
-                </div>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Menyediakan penyimpanan data yang dapat diakses kapan saja dan di mana saja secara online</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/32.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-3.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
-                </div>
-                  <h3><a href="detail.php">Satukan berkas berbagai bentuk dengan mudah menggunakan layanan kami</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/33.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-1.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">No Worry, Be Productive! Mudahnya menyatukan berkas berbagai bentuk</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/34.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/blog/product-2.png" alt="Image" class="img-fluid"></a>
-                  <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                  <h3><a href="detail.php">Analisis kebutuhan bisnis Anda dengan tenaga Big Data profesional yang kami sediakan</a></h3>
-                </div>
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/35.png" class="img-fluid" alt=""></a>
+                  </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/36.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <div class="media-29101">
+                  <a href="detail.php"><img src="assets/img/product/37.png" class="img-fluid" alt=""></a>
+                  </div>
+              </div>
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
