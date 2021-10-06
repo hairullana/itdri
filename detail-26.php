@@ -26,7 +26,7 @@ session_start();
             <div class="row gx-0">
     
               <div class="col-lg-6 align-middle" data-aos="zoom-out" data-aos-delay="200">
-                  <img src="assets/img/bigbox.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/smarteye.png" class="img-fluid" alt="">
                   <div class="rating text-center">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -41,7 +41,7 @@ session_start();
                 <div class="card-desc">
                   <div class="card-body">
                     <span class="text-muted">LEARNING & INNOVATION</span><br/><br/>
-                    <h4 class="fw-bolder">BigOne: Basic Big Data</h4>
+                    <h4 class="fw-bolder">SVCC : Virtual Training</h4>
                     <span>Platform Event Virtual</span><br>
                     <div class="row text-muted gy-3 my-3">
                       <div class="col-md-6">
@@ -63,7 +63,7 @@ session_start();
                   </div>
                   <div class="card-footer" style="text-align: justify;">
                     <p class="font-weight-bold"><i class="bi bi-file-earmark-medical"></i> Descriptions</p>
-                    <span>Smarteye Virtual conversation center merupakan platform event virtual yang menghadirkan cara baru dalam melaksanakan webminar, didevelop oleh smarteye amoeba dari Telkom Indonesia. Keunggulan dari SVCC yakni menghadirkan experience baru menonton webminar dengan berbagai trivia dan fitur unggulan berupa presensi dan reporting data.</span>
+                    <span>Beberapa training memiliki safety issues dan membutuhkan biaya yang tidak sedikit. Masa pandemi seperti ini membuat perusahaan harus menekan beberapa biaya, salah satunya training. SVCC menyediakan layanan pembuatan konten Virtual Reality (VR) dan Augmented Reality (AR) untuk berbagai kebutuhan bisnis dan enterprise seperti virtual training. Pelatihan yang dilakukan secara virtual dapat memberikan manfaat, seperti safety training, cost efficiency, dan interactive experience.</span>
                   </div>
                 </div>
               </div>
@@ -89,7 +89,7 @@ session_start();
                     <div class="col-2" data-aos="zoom-in" data-aos-delay="200">
                       <div class="box">
                         <h3 style="color: #65c600;">UMKM</h3>
-                        <div class="price"><sup>Rp.</sup>199K</div>
+                        <div class="price"><sup>Rp.</sup>XXX</div>
                         <p class="text-dark">Labeling</p>
                         <p class="text-dark"><i class="bi bi-x-circle"></i></p>
                         <p class="text-dark"><i class="bi bi-x-circle"></i></p>
@@ -102,7 +102,7 @@ session_start();
                     <div class="col-2" data-aos="zoom-in" data-aos-delay="300">
                       <div class="box">
                         <h3 style="color: #ff901c;">Startup</h3>
-                        <div class="price"><sup>Rp.</sup>549K</div>
+                        <div class="price"><sup>Rp.</sup>XXX</div>
                         <p class="text-dark">Labeling</p>
                         <p class="text-dark"><i class="bi bi-x-circle"></i></p>
                         <p class="text-dark">Email</p>
@@ -115,7 +115,7 @@ session_start();
                     <div class="col-2" data-aos="zoom-in" data-aos-delay="400">
                       <div class="box">
                         <h3 style="color: #ff0071;">SME</h3>
-                        <div class="price"><sup>Rp.</sup>999K</div>
+                        <div class="price"><sup>Rp.</sup>XXX</div>
                         <p class="text-dark">Labeling</p>
                         <p class="text-dark">Webchat</p>
                         <p class="text-dark">Email</p>
@@ -128,7 +128,7 @@ session_start();
                     <div class="col-2" data-aos="zoom-in" data-aos-delay="400">
                       <div class="box">
                         <h3 style="color: #ff0071;">Enterprise</h3>
-                        <div class="price"><sup>Rp.</sup>1349K</div>
+                        <div class="price"><sup>Rp.</sup>XXX</div>
                         <p class="text-dark">Labeling</p>
                         <p class="text-dark">Webchat</p>
                         <p class="text-dark">Email</p>

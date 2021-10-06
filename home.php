@@ -153,7 +153,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/11.png" class="img-fluid" alt=""></a>
+                  <a href="detail-11.php"><img src="assets/img/product/11.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/12.png" class="img-fluid" alt=""></a>
+                  <a href="detail-12.php"><img src="assets/img/product/12.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/13.png" class="img-fluid" alt=""></a>
+                  <a href="detail-13.php"><img src="assets/img/product/13.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -177,7 +177,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/14.png" class="img-fluid" alt=""></a>
+                  <a href="detail-14.php"><img src="assets/img/product/14.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -185,7 +185,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/15.png" class="img-fluid" alt=""></a>
+                  <a href="detail-15.php"><img src="assets/img/product/15.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -193,7 +193,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/16.png" class="img-fluid" alt=""></a>
+                  <a href="detail-16.php"><img src="assets/img/product/16.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -201,7 +201,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/17.png" class="img-fluid" alt=""></a>
+                  <a href="detail-17.php"><img src="assets/img/product/17.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -227,7 +227,7 @@ session_start();
           <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/21.png" class="img-fluid" alt=""></a>
+                  <a href="detail-21.php"><img src="assets/img/product/21.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -235,7 +235,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/22.png" class="img-fluid" alt=""></a>
+                  <a href="detail-22.php"><img src="assets/img/product/22.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -243,7 +243,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/23.png" class="img-fluid" alt=""></a>
+                  <a href="detail-23.php"><img src="assets/img/product/23.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -251,7 +251,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/24.png" class="img-fluid" alt=""></a>
+                  <a href="detail-24.php"><img src="assets/img/product/24.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -259,7 +259,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/25.png" class="img-fluid" alt=""></a>
+                  <a href="detail-25.php"><img src="assets/img/product/25.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -267,7 +267,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/26.png" class="img-fluid" alt=""></a>
+                  <a href="detail-26.php"><img src="assets/img/product/26.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -275,7 +275,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/27.png" class="img-fluid" alt=""></a>
+                  <a href="detail-27.php"><img src="assets/img/product/27.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -301,7 +301,7 @@ session_start();
           <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/31.png" class="img-fluid" alt=""></a>
+                  <a href="detail-31.php"><img src="assets/img/product/31.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -309,7 +309,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/32.png" class="img-fluid" alt=""></a>
+                  <a href="detail-32.php"><img src="assets/img/product/32.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -317,7 +317,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/33.png" class="img-fluid" alt=""></a>
+                  <a href="detail-33.php"><img src="assets/img/product/33.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -325,7 +325,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/34.png" class="img-fluid" alt=""></a>
+                  <a href="detail-34.php"><img src="assets/img/product/34.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -333,7 +333,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/35.png" class="img-fluid" alt=""></a>
+                  <a href="detail-35.php"><img src="assets/img/product/35.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -341,7 +341,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/36.png" class="img-fluid" alt=""></a>
+                  <a href="detail-36.php"><img src="assets/img/product/36.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
@@ -349,7 +349,7 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                   <div class="media-29101">
-                  <a href="detail.php"><img src="assets/img/product/37.png" class="img-fluid" alt=""></a>
+                  <a href="detail-37.php"><img src="assets/img/product/37.png" class="img-fluid" alt=""></a>
                   </div>
               </div>
             </div>
