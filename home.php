@@ -381,11 +381,11 @@ session_start();
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Produk yang ditawarkan bagus dengan pelayanan yang ramah dan juga mudah dimengerti sehingga saya pribadi tidak kesulitan dalam melakukan transaksi di website ini.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/foto.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
+                  <img src="assets/img/user.png" class="testimonial-img" alt="">
+                  <h3>Hairul Lana</h3>
                   <h4>Ceo &amp; Founder</h4>
                 </div>
               </div>
@@ -397,11 +397,11 @@ session_start();
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Sangat suka desain websitenya yang memudahkan saya untuk mengexplore lebih lanjut tentang produk produk yang dutawarkan
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/foto.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
+                  <img src="assets/img/user.png" class="testimonial-img" alt="">
+                  <h3>Fanny Adinda Nurahma</h3>
                   <h4>Designer</h4>
                 </div>
               </div>
@@ -413,11 +413,11 @@ session_start();
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Sangat puas dengan semua produk yang pernah saya beli disini, sangat bermanfaat bagi perusahaan saya yang membuat perusahaan saya semakin berkembang
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/foto.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
+                  <img src="assets/img/user.png" class="testimonial-img" alt="">
+                  <h3>Meylinda Astini</h3>
                   <h4>Store Owner</h4>
                 </div>
               </div>
@@ -429,11 +429,11 @@ session_start();
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Websitenya cukup mudah dimengerti dengan desain yang simple sehingga memudahkan saya untuk menggunakan dan membeli produk disini
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/foto.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
+                  <img src="assets/img/user.png" class="testimonial-img" alt="">
+                  <h3>Zidane Abdullah</h3>
                   <h4>Freelancer</h4>
                 </div>
               </div>
@@ -445,11 +445,11 @@ session_start();
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Produk yang ditawarkan sangat sangat membuat saya ingin membeli lagi karena benar benar bermanfaat untuk usaha saya dan juga web yang simple dan juga mudah dimengerti.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/foto.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
+                  <img src="assets/img/user.png" class="testimonial-img" alt="">
+                  <h3>Ghina Salsa Fajriani</h3>
                   <h4>Entrepreneur</h4>
                 </div>
               </div>
