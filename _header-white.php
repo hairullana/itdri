@@ -1,4 +1,4 @@
-<?php if(!isset($_SESSION['login']) || $_SESSION['login'] == false) : ?>
+<?php if(!isset($_SESSION['login-itdri']) || $_SESSION['login-itdri'] == false) : ?>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">

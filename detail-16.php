@@ -315,7 +315,7 @@ session_start();
 
 <?php
 
-if ($_SESSION['login'] == false) {
+if ($_SESSION['login-itdri'] == false) {
   echo "
     <script>
         Swal.fire('AKSES DITOLAK','Anda harus melakukan login terlebih dahulu','warning').then(function(){

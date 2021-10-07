@@ -91,7 +91,7 @@ require '_functions.php'
       ";
   }
 
-  if (isset($_SESSION['login']) && $_SESSION['login'] == true){
+  if (isset($_SESSION['login-itdri']) && $_SESSION['login-itdri'] == true){
     echo "
       <script>
           Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','warning').then(function(){
@@ -117,7 +117,7 @@ require '_functions.php'
     }
 
     if ($email == $_SESSION['email'] && $password == $_SESSION['password']){
-      $_SESSION['login'] = true;
+      $_SESSION['login-itdri'] = true;
         echo "
           <script>
               Swal.fire('BERHASIL LOGIN','','success').then(function(){

@@ -396,7 +396,7 @@ session_start();
 
 <?php
 
-if ($_SESSION['login'] == true) {
+if ($_SESSION['login-itdri'] == true) {
   echo "
     <script>
         Swal.fire('AKSES DITOLAK','Anda sudah melakukan login','warning').then(function(){

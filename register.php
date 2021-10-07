@@ -144,7 +144,7 @@ require '_functions.php'
   }
 
 
-  if (isset($_SESSION['login']) && $_SESSION['login'] == true) {
+  if (isset($_SESSION['login-itdri']) && $_SESSION['login-itdri'] == true) {
     echo "
       <script>
           Swal.fire('AKSES DITOLAK','Anda sudah login','warning').then(function(){
